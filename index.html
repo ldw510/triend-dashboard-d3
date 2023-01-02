@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Triend Dashboard</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+
+  </head>
+	  <body>
+        <!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<div class="lg:grid lg:grid-cols-3">
+    <div>
+        <h1>A scattered graph with highlightable sections</h1>
+<div class="somewhere" ></div>
+<script src="./js/scattered-plot.js"></script>
+    </div>
+    <div>
+        <h1>A scattered graph with soft animations on load</h1>
+<div class="dataTwo"></div>
+<script src="./js/scattered-plot2.js"></script>
+
+    </div>
+    <div>
+        <h1>Connecting lines</h1>
+<select id="selectButton"></select>
+<div class="lines"></div>
+<script src="./js/connected-lines.js"></script>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>
